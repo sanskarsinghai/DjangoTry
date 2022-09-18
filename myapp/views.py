@@ -19,47 +19,47 @@ def index(request):
     return render(request,"index.html")
 
 def aboutus(request):
-    print("Encryption process started: -")
-    print()
+    # print("Encryption process started: -")
+    # print()
 
-    ec.encyptions()
+    # ec.encyptions()
 
-    # tfb.TxtToBin()
-    # b3t.BreakIn3Parts()
-    # k=enc.keygen()
-    # iv=enc.aesenc()
-    # di=enc.desenc()
-    # r=enc.rc4enc()
-    # l=enc.decauth()
-    # enc.stegnoimg(k,iv,di,r,l)
+    # # tfb.TxtToBin()
+    # # b3t.BreakIn3Parts()
+    # # k=enc.keygen()
+    # # iv=enc.aesenc()
+    # # di=enc.desenc()
+    # # r=enc.rc4enc()
+    # # l=enc.decauth()
+    # # enc.stegnoimg(k,iv,di,r,l)
 
-    # mge.MergeIn1()
+    # # mge.MergeIn1()
 
-    print("Encryption process completed")
+    # print("Encryption process completed")
     return render(request,"about.html",context={"m":"Encryption process completed"})
 
 def contact(request):
-    print("Decryption process started: -")
-    print()
+    # print("Decryption process started: -")
+    # print()
 
-    de.decryptions()
+    # de.decryptions()
 
-    # l=de.stegnoimg()
-    # de.DiviIn3(l)
+    # # l=de.stegnoimg()
+    # # de.DiviIn3(l)
 
-    # # os.remove("f2\mergeenc.bin")
+    # # # os.remove("f2\mergeenc.bin")
 
-    # desc.stegnoimg()
+    # # desc.stegnoimg()
 
-    # # os.remove("s1.png")
+    # # # os.remove("s1.png")
 
-    # desc.keygen()
-    # desc.aesdec()
-    # desc.desdec()
-    # desc.rc4dec()
+    # # desc.keygen()
+    # # desc.aesdec()
+    # # desc.desdec()
+    # # desc.rc4dec()
 
-    # m.MergeIn3()
-    print("Decryption process completed")
+    # # m.MergeIn3()
+    # print("Decryption process completed")
     return render(request,"contact.html",context={"m":"Decryption process completed"})
 
 def service(request):
